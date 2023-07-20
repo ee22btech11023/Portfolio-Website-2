@@ -27,7 +27,7 @@ let changeText = ()=>{
     Array.from(nextWord.children).forEach((letter,i)=>{
         letter.className = "letter behind";
         setTimeout(()=>{
-            letter.classNmae = "letter in";
+            letter.className = "letter in";
         },340 + i*80);
     
 
